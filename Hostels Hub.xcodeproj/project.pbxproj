@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CCA43C25376456004DBC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA43B25376456004DBC65 /* AppDelegate.swift */; };
+		18CCA43E25376456004DBC65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA43D25376456004DBC65 /* SceneDelegate.swift */; };
+		18CCA44025376456004DBC65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA43F25376456004DBC65 /* ViewController.swift */; };
+		18CCA44325376456004DBC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CCA44125376456004DBC65 /* Main.storyboard */; };
+		18CCA44625376456004DBC65 /* Hostels_Hub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA44425376456004DBC65 /* Hostels_Hub.xcdatamodeld */; };
+		18CCA44825376458004DBC65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CCA44725376458004DBC65 /* Assets.xcassets */; };
+		18CCA44B25376458004DBC65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CCA44925376458004DBC65 /* LaunchScreen.storyboard */; };
+		18CCA45E25376783004DBC65 /* sliderCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA45325376783004DBC65 /* sliderCustom.swift */; };
+		18CCA45F25376783004DBC65 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA45425376783004DBC65 /* UIViewXRadialGradient.swift */; };
+		18CCA46025376783004DBC65 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA45525376783004DBC65 /* UITextFieldX.swift */; };
+		18CCA46125376783004DBC65 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA45625376783004DBC65 /* UIButtonX.swift */; };
+		18CCA46225376783004DBC65 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA45725376783004DBC65 /* UILabelX.swift */; };
+		18CCA46325376783004DBC65 /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA45825376783004DBC65 /* UIViewControllerX.swift */; };
+		18CCA46425376783004DBC65 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA45925376783004DBC65 /* UIImageViewX.swift */; };
+		18CCA46525376783004DBC65 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA45A25376783004DBC65 /* UIViewX.swift */; };
+		18CCA46625376783004DBC65 /* uiTextViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA45B25376783004DBC65 /* uiTextViewStyle.swift */; };
+		18CCA46725376783004DBC65 /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA45C25376783004DBC65 /* UIVisualEffectViewX.swift */; };
+		18CCA46825376783004DBC65 /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA45D25376783004DBC65 /* UISliderX.swift */; };
+		18CCA46B25377325004DBC65 /* placestblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA46A25377325004DBC65 /* placestblCell.swift */; };
+		18CCA46E25377622004DBC65 /* Googleplaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA46D25377622004DBC65 /* Googleplaces.swift */; };
+		18CCA4712537771D004DBC65 /* HostelsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA4702537771D004DBC65 /* HostelsModel.swift */; };
+		18CCA475253777D3004DBC65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA474253777D3004DBC65 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18CCA43825376456004DBC65 /* Hostels Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hostels Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CCA43B25376456004DBC65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18CCA43D25376456004DBC65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18CCA43F25376456004DBC65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18CCA44225376456004DBC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CCA44525376456004DBC65 /* Hostels_Hub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hostels_Hub.xcdatamodel; sourceTree = "<group>"; };
+		18CCA44725376458004DBC65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CCA44A25376458004DBC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CCA44C25376458004DBC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CCA45325376783004DBC65 /* sliderCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sliderCustom.swift; sourceTree = "<group>"; };
+		18CCA45425376783004DBC65 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		18CCA45525376783004DBC65 /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		18CCA45625376783004DBC65 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		18CCA45725376783004DBC65 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		18CCA45825376783004DBC65 /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		18CCA45925376783004DBC65 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		18CCA45A25376783004DBC65 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		18CCA45B25376783004DBC65 /* uiTextViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiTextViewStyle.swift; sourceTree = "<group>"; };
+		18CCA45C25376783004DBC65 /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		18CCA45D25376783004DBC65 /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		18CCA46A25377325004DBC65 /* placestblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placestblCell.swift; sourceTree = "<group>"; };
+		18CCA46D25377622004DBC65 /* Googleplaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Googleplaces.swift; sourceTree = "<group>"; };
+		18CCA4702537771D004DBC65 /* HostelsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostelsModel.swift; sourceTree = "<group>"; };
+		18CCA474253777D3004DBC65 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CCA43525376456004DBC65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CCA42F25376456004DBC65 = {
+			isa = PBXGroup;
+			children = (
+				18CCA43A25376456004DBC65 /* Hostels Hub */,
+				18CCA43925376456004DBC65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CCA43925376456004DBC65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CCA43825376456004DBC65 /* Hostels Hub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CCA43A25376456004DBC65 /* Hostels Hub */ = {
+			isa = PBXGroup;
+			children = (
+				18CCA472253777AF004DBC65 /* Resources */,
+				18CCA46F253776E5004DBC65 /* Models */,
+				18CCA46C253775EB004DBC65 /* Services */,
+				18CCA469253772FB004DBC65 /* Cells */,
+				18CCA45225376783004DBC65 /* desigableExtensions */,
+				18CCA43B25376456004DBC65 /* AppDelegate.swift */,
+				18CCA43D25376456004DBC65 /* SceneDelegate.swift */,
+				18CCA43F25376456004DBC65 /* ViewController.swift */,
+				18CCA44125376456004DBC65 /* Main.storyboard */,
+				18CCA44725376458004DBC65 /* Assets.xcassets */,
+				18CCA44925376458004DBC65 /* LaunchScreen.storyboard */,
+				18CCA44C25376458004DBC65 /* Info.plist */,
+				18CCA44425376456004DBC65 /* Hostels_Hub.xcdatamodeld */,
+			);
+			path = "Hostels Hub";
+			sourceTree = "<group>";
+		};
+		18CCA45225376783004DBC65 /* desigableExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				18CCA45325376783004DBC65 /* sliderCustom.swift */,
+				18CCA45425376783004DBC65 /* UIViewXRadialGradient.swift */,
+				18CCA45525376783004DBC65 /* UITextFieldX.swift */,
+				18CCA45625376783004DBC65 /* UIButtonX.swift */,
+				18CCA45725376783004DBC65 /* UILabelX.swift */,
+				18CCA45825376783004DBC65 /* UIViewControllerX.swift */,
+				18CCA45925376783004DBC65 /* UIImageViewX.swift */,
+				18CCA45A25376783004DBC65 /* UIViewX.swift */,
+				18CCA45B25376783004DBC65 /* uiTextViewStyle.swift */,
+				18CCA45C25376783004DBC65 /* UIVisualEffectViewX.swift */,
+				18CCA45D25376783004DBC65 /* UISliderX.swift */,
+			);
+			path = desigableExtensions;
+			sourceTree = "<group>";
+		};
+		18CCA469253772FB004DBC65 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18CCA46A25377325004DBC65 /* placestblCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		18CCA46C253775EB004DBC65 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				18CCA46D25377622004DBC65 /* Googleplaces.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		18CCA46F253776E5004DBC65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18CCA4702537771D004DBC65 /* HostelsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18CCA472253777AF004DBC65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18CCA474253777D3004DBC65 /* Constants.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CCA43725376456004DBC65 /* Hostels Hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CCA44F25376458004DBC65 /* Build configuration list for PBXNativeTarget "Hostels Hub" */;
+			buildPhases = (
+				18CCA43425376456004DBC65 /* Sources */,
+				18CCA43525376456004DBC65 /* Frameworks */,
+				18CCA43625376456004DBC65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hostels Hub";
+			productName = "Hostels Hub";
+			productReference = 18CCA43825376456004DBC65 /* Hostels Hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CCA43025376456004DBC65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18CCA43725376456004DBC65 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 18CCA43325376456004DBC65 /* Build configuration list for PBXProject "Hostels Hub" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CCA42F25376456004DBC65;
+			productRefGroup = 18CCA43925376456004DBC65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CCA43725376456004DBC65 /* Hostels Hub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CCA43625376456004DBC65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CCA44B25376458004DBC65 /* LaunchScreen.storyboard in Resources */,
+				18CCA44825376458004DBC65 /* Assets.xcassets in Resources */,
+				18CCA44325376456004DBC65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CCA43425376456004DBC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CCA46225376783004DBC65 /* UILabelX.swift in Sources */,
+				18CCA475253777D3004DBC65 /* Constants.swift in Sources */,
+				18CCA44625376456004DBC65 /* Hostels_Hub.xcdatamodeld in Sources */,
+				18CCA45E25376783004DBC65 /* sliderCustom.swift in Sources */,
+				18CCA45F25376783004DBC65 /* UIViewXRadialGradient.swift in Sources */,
+				18CCA44025376456004DBC65 /* ViewController.swift in Sources */,
+				18CCA46E25377622004DBC65 /* Googleplaces.swift in Sources */,
+				18CCA46525376783004DBC65 /* UIViewX.swift in Sources */,
+				18CCA46825376783004DBC65 /* UISliderX.swift in Sources */,
+				18CCA4712537771D004DBC65 /* HostelsModel.swift in Sources */,
+				18CCA46625376783004DBC65 /* uiTextViewStyle.swift in Sources */,
+				18CCA46B25377325004DBC65 /* placestblCell.swift in Sources */,
+				18CCA46325376783004DBC65 /* UIViewControllerX.swift in Sources */,
+				18CCA46725376783004DBC65 /* UIVisualEffectViewX.swift in Sources */,
+				18CCA46125376783004DBC65 /* UIButtonX.swift in Sources */,
+				18CCA46025376783004DBC65 /* UITextFieldX.swift in Sources */,
+				18CCA43C25376456004DBC65 /* AppDelegate.swift in Sources */,
+				18CCA43E25376456004DBC65 /* SceneDelegate.swift in Sources */,
+				18CCA46425376783004DBC65 /* UIImageViewX.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18CCA44125376456004DBC65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CCA44225376456004DBC65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CCA44925376458004DBC65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CCA44A25376458004DBC65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CCA44D25376458004DBC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18CCA44E25376458004DBC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CCA45025376458004DBC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8G67WWWAE;
+				INFOPLIST_FILE = "Hostels Hub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.Hostels-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CCA45125376458004DBC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8G67WWWAE;
+				INFOPLIST_FILE = "Hostels Hub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.Hostels-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CCA43325376456004DBC65 /* Build configuration list for PBXProject "Hostels Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CCA44D25376458004DBC65 /* Debug */,
+				18CCA44E25376458004DBC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CCA44F25376458004DBC65 /* Build configuration list for PBXNativeTarget "Hostels Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CCA45025376458004DBC65 /* Debug */,
+				18CCA45125376458004DBC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18CCA44425376456004DBC65 /* Hostels_Hub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18CCA44525376456004DBC65 /* Hostels_Hub.xcdatamodel */,
+			);
+			currentVersion = 18CCA44525376456004DBC65 /* Hostels_Hub.xcdatamodel */;
+			path = Hostels_Hub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18CCA43025376456004DBC65 /* Project object */;
+}
